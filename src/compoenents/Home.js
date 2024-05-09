@@ -4,12 +4,12 @@ import Image1 from '../images/about.jpg';
 function Home() {
   return (
     <>
-    <section class="home" id="home">
-      <div class="imag_1">
+    <section className="home" id="home">
+      <div className="imag_1">
         <img src={Image1} alt="about photo" width="800" height="600"/>
       </div>
-      <div class="home-text">
-        <h2 class="welcom-segment">WELCOME TO ABOEL-DAHAB PIZZA RESTAURANT</h2>
+      <div className="home-text">
+        <h2 className="welcom-segment">WELCOME TO ABOEL-DAHAB PIZZA RESTAURANT</h2>
         <p>
           Welcome to Aboeldahab Pizza Restaurant, where we take pride in serving you the best pizzas in town. Our restaurant offers a warm and inviting atmosphere, making it the perfect place for you to sit back, relax, and enjoy a delicious meal with family and friends.
 
