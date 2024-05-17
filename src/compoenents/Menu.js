@@ -6,7 +6,7 @@ import '../compoenents/menu.css'
 import { useEffect, useState } from "react";
 
 function Menu (){
-  const menu_url = "https://private-anon-f3ca14a8d0-pizzaapp.apiary-mock.com/restaurants/restaurantId/menu?category=Pizza&orderBy=rank";
+  const menu_url = "http://localhost:9000/products";
  const [pizza_list,setpizza] = useState([]);
 
 

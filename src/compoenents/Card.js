@@ -1,12 +1,11 @@
 import './Card.css'
 function Card (props){
-	const {card}=props;
-	console.log(card);
+	const {card}=props; 
 	return(
 		<>
 		<div className="card">
 	  	<div className="photo">
-		{/* <img src={props.imga} alt="pizza-1" width="300" height="300"/> */}
+		<img src={card.img} alt="pizza-1" width="300" height="300"/>
 	  	</div>
 	  <div className="info">
 		<h3>{card.name}</h3>

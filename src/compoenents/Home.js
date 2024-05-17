@@ -1,6 +1,6 @@
 import Image1 from '../images/about.jpg';
 
-
+  
 function Home() {
   return (
     <>
