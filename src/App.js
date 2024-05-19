@@ -6,7 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import About from "./compoenents/About";
 import Main from "./compoenents/Main";
 import Cart from './compoenents/Cart';
-import Deyalis from "./compoenents/Deyalis";
+import Details from "./compoenents/Details";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Route path="menu" element={<Menu/>} />
       <Route path="About" element={<About/>} />
       <Route path="Cart" element={<Cart/>} />
-      <Route path="/product/:id" element={<Deyalis />} /> 
+      <Route path="/product/:id" element={<Details />} /> 
       </Routes>
     </div>
   );

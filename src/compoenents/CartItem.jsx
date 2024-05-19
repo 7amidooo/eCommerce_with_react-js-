@@ -32,7 +32,7 @@ export default function CartItem({ item, setCart, cart }) {
     return (
         <>
             <div className="cartItem">
-                <img src={image} alt="photo" width="300" height="300" />
+                <img src={item.img} alt="photo" width="300" height="300" />
                 <div>{name}</div>
                 {' '}
                 <div>Quantity: {quantity}</div>
